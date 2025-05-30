@@ -1,0 +1,87 @@
+const productData = {
+  prodId: 1,
+  name: "Nova Pro Ultra", 
+  brand: "TechVision",
+  price: 999.99,
+  oldPrice: 1199.99,
+  rating: 4.7,
+  description:
+    "Experience the future with the Nova Pro Ultra. Featuring a stunning 6.8-inch OLED display, AI-powered photography system, and industry-leading performance with our latest quantum processor.",
+  additionalDescription: [
+    "The Nova Pro Ultra represents the pinnacle of mobile technology. With its revolutionary design and cutting-edge features, it's more than just a smartphone—it's a glimpse into the future of personal computing.",
+    "Equipped with a stunning 6.8-inch OLED display featuring a 120Hz refresh rate, every interaction feels incredibly smooth and responsive. The display uses our latest Quantum Dot technology, delivering rich, vibrant colors with perfect blacks and exceptional brightness even in direct sunlight.",
+  ],
+  inStock: true,
+  colors: ["Cosmic Black", "Glacier White", "Titanium Gray"],
+  storage: ["128GB", "256GB", "512GB"],
+  ram:["4GB", "6GB", "8GB", "12GB"]
+  images: [img12, img21],
+  specifications: [
+    { name: "Display", value: '6.8" OLED, 120Hz' },
+    { name: "Processor", value: "QuantumX 9 Gen" },
+    { name: "RAM", value: "12GB LPDDR5" },
+    { name: "Camera", value: "108MP Main + 50MP Ultra + 12MP Telephoto" },
+    { name: "Battery", value: "5000mAh, 65W Fast Charging" },
+    { name: "OS", value: "AndroidOS 15" },
+  ],
+  features: [
+    "AI-Enhanced Photography",
+    "Quantum Computing Capabilities",
+    "Military-Grade Security",
+    "8K Video Recording",
+    "Water and Dust Resistant (IP68)",
+    "5G Connectivity",
+  ],
+  quantitySelected: 1,
+  quantityAvailable: 10,
+  isWishlisted: false,
+  isAddedToCart: false,
+  sellerId: djkvndjnvaejnjdkj,
+  category: smartphone,
+  specs: "6.7" AMOLED, 8GB RAM, 256GB",
+  featured: false,
+};
+
+--------------------------------------------------------------------
+user
+
+userId: ekjdnkjfrnbtnt,
+username: Mahesh,
+phoneNumber: 1210121212,
+email: m@gmail.com,
+address: bangalore,
+password: mahesh,
+wishlistedProducts: ["productId1","productId2"],
+
+----------------------------------------------------------------------
+cart 
+
+userId: eksdjvksjfbrf,
+prodId: djsnvkfjvnkrs,
+sellerId: ekdjnvkjfsnrbk,
+quantitySelected: 2,
+storage: "12GB",
+ram: "6GB",
+color: "black"
+----------------------------------------------------------------------
+purchased 
+
+userId: eksdjvksjfbrf,
+prodId: djsnvkfjvnkrs,
+sellerId: sdkjvnkfjnbbv,
+quantitySelected: 2,
+storage: "12GB",
+ram: "6GB",
+color: "black"
+
+----------------------------------------------------------------------
+seller
+
+sellerId: dksjrnkjntbjksr,
+sellerName: Mahesh,
+phoneNumber: 1210121212,
+email: m@gmail.com,
+address: bangalore,
+password: mahesh,
+gstin: sjrnvskjfblkf,
+panNumber: skdjvksfjnvkjf,
